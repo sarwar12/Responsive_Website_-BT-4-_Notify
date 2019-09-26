@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*Custom Font Start*/
+@font-face{
+	font-family: pacific;
+	src:url(fonts/Pacifico-Regular.ttf);
+}
+/*Custom Font Stop*/
+/*Header Section Start*/
+.heads {
+	background: url(img/slider.jpg) no-repeat;
+	width: 100%;
+	height: 500px;
+	background-size: 100% 100%;
+	padding: 170px 0;
+}
+.conts{}
+.conts h2{
+	font-family: pacific;
+	color: #fff;
+	font-size: 60px; 
+}
+.conts p {
+	margin: 30px 0;
+	font-size: 24px;
+	color: #fff;
+}
+.icon{}
+.icon a{}
+.icon a i {
+	background: #362419;
+	color: #b29e95;
+	padding: 14px 17px;
+	font-size: 32px;
+}
+.icon a i:hover{
+	background: #2ecc71;
+	color: #fff;
+}
+/*Header Section Stop*/
+/*Group Section Start*/
+.group{
+	margin-top: 75px;
+	margin-bottom: 60px;
+}
+.icons{}
+.icons a{}
+.icons a i {
+	color: #fff;
+	background: #2ecc71;
+	padding: 14px 14px;
+	border-radius: 50%;
+	font-size: 35px;
+}
+.contss{}
+.contss h4{
+	font-size: 22px;
+	font-weight: bold;
+	color: #222222;
+	margin-top: 30px;
+}
+.contss p {
+	font-size: 16px;
+	color: #848484;
+	margin-top: 20px;
+	width: 89%;
+}
+/*Group Section Stop*/
+/*Search Section Start*/
+.search{
+	background: #e3e3e3;
+	padding-top: 65px;
+	padding-bottom: 60px;
+}
+.searchs{}
+.searchs h2 {
+	font-size: 22px;
+	color: #222222;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.searchs p {
+	font-size: 16px;
+	color: #848484;
+	padding-bottom: 20px;
+	width: 84%;
+	text-align: justify;
+}
+.searchs input{}
+.searchs a{}
+.video{}
+.video img{}
+/*Search Section Stop*/
+/*All People Section Start*/
+.allpep{
+	margin-top: 70px;
+}
+.connt{}
+.connt h5{
+	font-size: 18px;
+	color: #2e2e2e;
+	margin-top: 30px;
+}
+.allpep p {
+	color: #848484;
+	font-size: 16px;
+	width: 72%;
+	display: inline-block;
+}
+.allpep{
+	text-align: center;
+	margin-bottom: 65px;
+}
+.allpep h2{
+	font-size: 24px;
+	margin-top: 60px;
+}
+.in_icon{}
+.in_icon a{}
+.in_icon a i {
+	background: #d4d4d4;
+	color: white;
+	padding: 8px 8px;
+	font-size: 20px;
+	border-radius: 50%;
+}
+.in_icon a i:hover{
+	background: #62d995;
+	color: #fff;
+}
+/*All People Section Stop*/
+/*Footer Section Start*/
+.foots{
+	background: #e3e3e3;
+}
+nav{}
+nav ul li{}
+nav ul li a{
+	color: #848484;
+}
+/*Footer Section Stop*/
